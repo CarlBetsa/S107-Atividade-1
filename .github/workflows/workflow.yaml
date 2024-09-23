@@ -59,4 +59,4 @@ jobs:
         env:
           EMAIL_RECIPIENT: carl.betsa@ges.inatel.br
         run: |
-          ./scripts/shell.sh
+          chmod +x scripts/send_email.sh
