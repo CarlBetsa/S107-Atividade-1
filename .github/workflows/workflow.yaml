@@ -57,7 +57,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Send email notification
         env:
-            RECIPIENT_EMAIL="lucas.cinquetti@ges.inatel.br"
+          RECIPIENT_EMAIL="lucas.cinquetti@ges.inatel.br"
         run: |
           chmod +x scripts/shell.sh
           ./scripts/shell.sh
