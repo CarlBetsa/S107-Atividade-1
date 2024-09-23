@@ -58,7 +58,6 @@ jobs:
       - name: Send email notification
         env:
             RECIPIENT_EMAIL="lucas.cinquetti@ges.inatel.br"
-            RECIPIENT_EMAIL2="carl.betsa@ges.inatel.br"
         run: |
           chmod +x scripts/shell.sh
           ./scripts/shell.sh
