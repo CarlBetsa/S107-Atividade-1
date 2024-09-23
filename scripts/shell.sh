@@ -5,10 +5,11 @@ EMAIL_RECIPIENT2="$EMAIL_RECIPIENT2"
 sudo apt-get install mailutils
 
 # Verifica se as variáveis necessárias estão presentes
-if [[ -z "$EMAIL_RECIPIENT" && -z "$EMAIL_RECIPIENT2"]]; then
+if [[ -z "$EMAIL_RECIPIENT" && -z "$EMAIL_RECIPIENT2"]] then
   echo "Faltando variáveis de ambiente. Verifique RECIPIENT_EMAIL."
   exit 1
 fi
+
 
 # Conteúdo do e-mail
 SUBJECT="Notificação: Execução do Pipeline"
