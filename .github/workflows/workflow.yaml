@@ -60,4 +60,4 @@ jobs:
           EMAIL_RECIPIENT: carl.betsa@ges.inatel.br
         run: |
           sudo apt-get install mailutils
-          scripts\shell.sh
+          ./scripts/shell.sh
