@@ -1,1 +1,3 @@
-# S107-Atividade-1
+# Projeto 1 de S107
+
+Dupla: Carl Betsa Costa e Lucas Cinquetti Moreira
